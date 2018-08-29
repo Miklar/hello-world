@@ -1,6 +1,0 @@
-version: 1.1.{build}
-before_build:
-- cmd: nuget restore Hello/Hello.sln
-build:
-  project: Hello/Hello.sln
-  verbosity: minimal
