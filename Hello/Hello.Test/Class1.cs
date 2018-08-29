@@ -15,10 +15,10 @@ namespace Hello.Test
             Assert.Equal(1, 1);
         }
 
-        //[Fact]
-        //public void TestThatShouldFail()
-        //{
-        //    Assert.Equal(1, 777);
-        //}
+        [Fact]
+        public void TestThatShouldFail()
+        {
+            Assert.Equal(1, 777);
+        }
     }
 }
